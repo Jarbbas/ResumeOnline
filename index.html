@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Emanuel Rodrigues</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="bx bx-home nav__icon active-link"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user nav__icon"></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book nav__icon"></i>Educação
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-code-block nav__icon'></i>Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx bx-briefcase-alt nav__icon"></i>Experiência
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class="bx bx-award nav__icon"></i>Certificados
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class="bx bx-link-external nav__icon"></i>Referências
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt nav__icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" class="home__img" alt="">
+
+                            <h1 class="home__title">EMANUEL <b>RODRIGUES</b></h1>
+                            <h3 class="home__profession">Fullstack web developer</h3>
+
+                            <div>
+                                <a download="" href="#" id="resume-button" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__informarion">
+                                <i class="bx bx-map home__icon"></i> Lisboa - Portugal
+                            </span>
+                            <span class="home__informarion">
+                                <i class="bx bx-envelope home__icon"></i> raulafonso88@gmail.com
+                            </span>
+                            <span class="home__informarion">
+                                <i class="bx bx-phone home__icon"></i> 966416895
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="" target="_blank" class="social__link social__icon">
+                            <i class='bx bxl-linkedin-square'></i>@EmanuelRodrigues
+                        </a>
+                        <a href="https://www.facebook.com/emanuel.rodrigues.9047" target="_blank" class="social__link social__icon">
+                            <i class='bx bxl-facebook-square'></i>@EmanuelRodrigues
+                        </a>
+                        <a href="https://github.com/Jarbbas" target="_blank" class="social__link social__icon">
+                            <i class='bx bxl-github'></i>@jarbbas
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Perfil</h2>
+                    Faço parte de uma geração que tem o melhor dos dois mundos, somos adaptáveis e estamos a par do
+                    mundo actual. Sem descurar o passado e as nossas origens. Curioso por natureza,
+                    acredito que estamos e devemos, sempre aprender e melhorar. Formação na área das novas tecnologias e
+                    programação, e graças à minha experiência. tenho um bom conhecimento sobre o mercado de negócio, bem
+                    como gosto de imaginar novas
+                    possibilidades.
+                    <p class="profile__description">
+
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Educação</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ensino Secundário obrigatório</h3>
+                                <span class="education__studies">Escola Secundária Moinha da Maré</span>
+                                <span class="education__year">2005 - 2007</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Ensino Superior - Eng Informática</h3>
+                                <span class="education__studies">Lusófona</span>
+                                <span class="education__year">2008 - </span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Eddisrupt Bootcamp</h3>
+                                <span class="education__studies">Growin</span>
+                                <span class="education__year">2017 - 2018</span>
+                            </div>
+                        </div>
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Talentar Academy web devolpement</h3>
+                                <span class="education__studies">Lisboa</span>
+                                <span class="education__year">2021 - 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Habilidades</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>PHP
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>HTML
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>CSS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Javascript
+                            </li>
+                        </ul>
+
+                        <ul class="skills_data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Bootstrap
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>React
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Laravel
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Worpress
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experiencia</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Assistente canal comercial</h3>
+                                <span class="experience__company">De 2009 a 2012 | retenção PTSales</span>
+                                <p class="experience__description">Técnico e assistente da linha de retenção do serviço
+                                    MEO
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Tech blogguer</h3>
+                                <span class="experience__company">De 2016 a 2019 | Androidgeek</span>
+                                <p class="experience__description">Jornalista de um dos mariores sites de noticas
+                                    Android em Portugal - <a href="https://androidgeek.pt/" class="social__link">Androidgeek</a>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Responsável processos de negócio</h3>
+                                <span class="experience__company">From 2013 to 2021 | Altice</span>
+                                <p class="experience__description">Para além de ser um Fullstack em PHP as sou
+                                    responsável por serviços informáticos e desenvolvimento de aplicações para consumo
+                                    interno, bem como processos relacionados com o negócio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificados</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Eddisrupt Bootcamp</h3>
+                            <span class="certificate__description">(09/2017 – 04/2018) 
+                                FullStack Junior Javascript programer </span>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Android Training Program</h3>
+                            <span class="certificate__description">(03/2019) Codelabs: Build your first App in Java Build your first Ap in Kotlin </span>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certificado Azure Microsoft</h3>
+                            <span class="certificate__description">(05/2022) 3 certificados Microsoft em serviços Azure</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES ==========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">Referências</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Diretor</span>
+                            <h3 class="references__title">Miguel Crespo</h3>
+                            <ul class="references__contact">
+                                <li>Email: miguel-a-crespo@telecom.pt</li>
+                            </ul>
+                        </div>
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Sr. Diretor</span>
+                            <h3 class="references__title">João Bonnel</h3>
+                            <ul class="references__contact">
+                                <li>Email:joao.bonell@androidgeek.pt </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Linguas</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Portuguesa
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span>Inglês
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interesses</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-run interests__icon'></i>
+                            <span class="interests__name">Atletismo</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-camera interests__icon'></i>
+                            <span class="interests__name">Fotografia</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxs-book interests__icon'></i>
+                            <span class="interests__name">Ler/Aprender</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bxl-dev-to interests__icon'></i>
+                            <span class="interests__name">Tecnologia</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scroll__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
